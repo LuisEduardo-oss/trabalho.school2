@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family = Montserrat: wght @ 100 & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Lato: wght @ 300 & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Montserrat: ital, wght @ 1.300 & display = swap');
+
+
+:root{
+    --fonte_padrao--: 'Montserrat', sans-serif;;
+    --fonte_leitura--:'Lato', sans-serif;
+    --fonte_leitura2--:'Montserrat', sans-serif;
+
+    --cor1--:#185BF5;
+    --cor2--:#0B72D4;
+    --cor3--:#00ACEB;
+    --cor4--:#48CFD6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte_padrao--);
+}
+
+* main{
+    font-family: var(--fonte_leitura--);
+}
+
+header > nav > p{
+    text-align: center;
+    font-size: 2.8em;
+    color: white;
+}
+header > nav{
+    background:linear-gradient(to right, var(--cor1--), var(--cor3--));
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+
+header > nav a{
+    text-decoration: none;
+    padding-left: 100px;
+    padding-right: 100px;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 1.2em;
+}
+
+header nav img{
+
+    width: 60px;
+    height: 60px;
+}
+
+header > nav{
+    text-align: center;
+}
+
+
+header #nav2{
+    border-radius: 0px 0px 5px 5px;
+
+}
+
+main article h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: rgba(0, 0, 0, 0.726);
+}
+
+
+
+main article{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: -1px 1px 10px 0px rgba(0, 0, 0, 0.384);
+}
+
+main #corpo h2{
+    font-family: var(--fonte_leitura--);
+    text-align: center;
+    color: rgba(0, 0, 0, 0.459);
+    font-size: 2.3em;
+}
+
+main #corpo{
+    padding-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#corpo img{
+    padding-top: 100px;
+    margin-left: 245px;
+}
+
+
+figcaption{
+    font-size: 0.9em;
+    margin-left: 245px;
+}
+/*
+GUIA APAGAR NO FIM
+
+
+main > #corpo{
+    background: chartreuse;
+
+}
+*/
+
+main #corpo p{
+    font-size: 1.5em;
+    text-indent: 20px;
+}
+
+main #conteudo{
+    padding-top: 50px;
+}
+
+main #conteudo p{
+    font-family:var(--fonte_leitura2--);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+footer > #anuncios {
+    margin-left: 35%;
+}
+
+#anuncios #bolt{
+margin-left: 10px;
+}
+
+#anuncios #gois{
+
+}
